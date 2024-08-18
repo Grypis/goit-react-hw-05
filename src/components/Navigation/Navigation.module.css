@@ -1,0 +1,25 @@
+.nav {
+  border-bottom: 1px solid rgb(8, 8, 7);
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.navList {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.navLink {
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(39, 39, 100);
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: var(--animation-cubicBezier);
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: rgb(79, 79, 204);
+}

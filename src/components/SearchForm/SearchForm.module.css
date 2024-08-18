@@ -1,0 +1,22 @@
+.form {
+  margin-bottom: 30px;
+}
+.input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 8px;
+  outline: transparent;
+}
+.btn {
+  padding: 10px;
+  width: 100px;
+  border-radius: 8px;
+}
+.btn:hover,
+.btn:focus {
+  padding: 11px;
+  color: white;
+  background-color: rgb(77, 76, 76);
+  border: none;
+}

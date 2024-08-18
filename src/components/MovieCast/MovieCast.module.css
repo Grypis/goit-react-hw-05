@@ -1,0 +1,17 @@
+.list {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.item {
+  border: 1px solid black;
+  border-radius: 4px;
+  flex-basis: calc((100% - 40px) / 5);
+}
+.img {
+  width: 100%;
+}
+.text {
+  text-align: center;
+}
